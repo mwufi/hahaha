@@ -1,0 +1,35 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 3px solid #f87b02;
+  border-radius: 5px;
+  overflow: hidden;
+
+  margin: 1em 0em;
+
+  box-shadow: 2px 4px 6px 1px #a4522d;
+  color: #6e576e;
+  background: #f87b02;
+}
+
+/* both the header and the text are wrapped in divs! */
+.card div {
+  padding: 1em;
+}
+
+.card-body {
+  background: #fff;
+}
+.col-md-3 {
+  max-width: 350px;
+}
+
+.app {
+  margin: 44px;
+}
+.app h1 {
+  text-align: center;
+}

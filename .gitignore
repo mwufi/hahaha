@@ -1,0 +1,8 @@
+.DS_Store
+
+# node projects
+node_modules
+
+# parcel build output
+dist/
+.cache
