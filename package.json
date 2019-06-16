@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
     "build": "parcel build --public-url . src/index.html",
-    "clean": "rimraf dist/index.html dist/src.*.css dist/src.*.js dist/src.*.map",
+    "clean": "rimraf dist/",
     "predeploy": "npm run clean -s && npm run build -s",
     "deploy": "gh-pages -d dist",
     "tsconfig": "node_modules/.bin/tsc --init"
@@ -24,7 +24,6 @@
   "dependencies": {
     "@types/react": "^16.8.20",
     "@types/react-dom": "^16.8.4",
-    "functions": "^1.0.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
